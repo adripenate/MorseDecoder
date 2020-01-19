@@ -30,4 +30,8 @@ public class Decoder {
         put("-.--", "Y");
         put("--..", "Z");
     }};
+
+    public static String get(String letter) {
+        return decoder.get(letter);
+    }
 }

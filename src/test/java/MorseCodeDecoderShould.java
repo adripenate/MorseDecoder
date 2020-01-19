@@ -25,7 +25,7 @@ public class MorseCodeDecoderShould {
         }
 
         private static String translate(String letter) {
-            return Decoder.decoder.get(letter);
+            return Decoder.get(letter);
         }
     }
 }
