@@ -9,7 +9,7 @@ public class Decoder {
         put("-..", "D");
         put(".", "E");
         put("..-.", "F");
-        put("--.-", "G");
+        put("--.", "G");
         put("....", "H");
         put("..", "I");
         put(".---", "J");

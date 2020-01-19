@@ -16,6 +16,11 @@ public class MorseCodeDecoderShould {
         assertThat(MorseCodeDecoder.decode(".... --- .-.. .-")).isEqualTo("HOLA");
     }
 
+    @Test
+    public void decode_a_phrase() {
+        assertThat(MorseCodeDecoder.decode(".... --- .-.. .-  .- -- .. --. .-")).isEqualTo("HOLA");
+    }
+
     private static class MorseCodeDecoder {
 
         public static String decode(String code) {
