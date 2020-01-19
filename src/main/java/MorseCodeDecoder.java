@@ -2,6 +2,11 @@ import java.util.Arrays;
 import java.util.stream.Collectors;
 
 public class MorseCodeDecoder {
+
+    public static final String WORD_SPACE = "   ";
+    public static final String WORD_SPACE_NORMALIZED = "  ";
+    public static final String LETTER_SPACE = " ";
+
     public static String decode(String code) {
         return Arrays.stream(separateWords(code))
                 .map(MorseCodeDecoder::normalizeSpace)
@@ -10,11 +15,11 @@ public class MorseCodeDecoder {
     }
 
     private static String[] separateWords(String code) {
-        return normalizeSpaces(code).split(" ");
+        return normalizeSpaces(code).split(LETTER_SPACE);
     }
 
     private static String normalizeSpaces(String code) {
-        return code.replaceAll("\\s{2,}", "  ");
+        return code.replaceAll(WORD_SPACE, WORD_SPACE_NORMALIZED);
     }
 
     private static String normalizeSpace(String letter) {

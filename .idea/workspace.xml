@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba31e972-25e4-4200-9242-c76ab61c6057" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MorseCodeDecoderShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MorseCodeDecoderShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MorseCodeDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MorseCodeDecoder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,24 +27,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MorseCodeDecoderShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="57" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#102#103#0" expanded="true" />
                 <element signature="e#129#130#0" expanded="true" />
                 <element signature="e#327#328#0" expanded="true" />
                 <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#983#984#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#996#997#0" expanded="true" />
-                <element signature="e#1059#1060#0" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1074#1075#0" expanded="true" />
-                <element signature="e#1406#1407#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MorseCodeDecoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,6 +93,8 @@
         <option value="$PROJECT_DIR$/src/test/java/MorseDecoderShould.java" />
         <option value="$PROJECT_DIR$/src/main/java/Decoder.java" />
         <option value="$PROJECT_DIR$/src/test/java/MorseCodeDecoderShould.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MorseCodeDecoder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MorseCodeDecoder.java" />
       </list>
     </option>
   </component>
@@ -148,6 +162,12 @@
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="Decoder" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,19 +326,24 @@
       <option name="project" value="LOCAL" />
       <updated>1579431214134</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Refactor - Operation extracted as method">
+      <created>1579431328850</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1579431328850</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Refactor - MorseCodeDecoder moved to its own file">
+      <created>1579431536879</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1579431536879</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MorseCodeDecoderShould_(5) - 2020.01.19 at 10h 36m 28s.xml">
-      <configuration name="MorseCodeDecoderShould (5)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MorseCodeDecoderShould_(5) - 2020.01.19 at 10h 37m 37s.xml">
-      <configuration name="MorseCodeDecoderShould (5)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MorseCodeDecoderShould_(1) - 2020.01.19 at 10h 41m 54s.xml">
-      <configuration name="MorseCodeDecoderShould (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MorseCodeDecoderShould_(1) - 2020.01.19 at 10h 43m 36s.xml">
       <configuration name="MorseCodeDecoderShould (1)" configurationId="JUnit" />
     </history-entry>
@@ -339,6 +364,15 @@
     </history-entry>
     <history-entry file="MorseCodeDecoderShould_(2) - 2020.01.19 at 10h 53m 07s.xml">
       <configuration name="MorseCodeDecoderShould (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MorseCodeDecoderShould_(3) - 2020.01.19 at 10h 55m 07s.xml">
+      <configuration name="MorseCodeDecoderShould (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MorseCodeDecoderShould_(3) - 2020.01.19 at 10h 58m 17s.xml">
+      <configuration name="MorseCodeDecoderShould (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MorseCodeDecoderShould_(3) - 2020.01.19 at 10h 58m 34s.xml">
+      <configuration name="MorseCodeDecoderShould (3)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -382,9 +416,10 @@
     <MESSAGE value="Refactor - Map access modified to private" />
     <MESSAGE value="Red test - decode_a_phrase" />
     <MESSAGE value="Green test - decode_a_phrase" />
-    <MESSAGE value="Refactor - Operation extracted as method" />
     <MESSAGE value="Refactor - Lambda replaced with reference method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor - Lambda replaced with reference method" />
+    <MESSAGE value="Refactor - Operation extracted as method" />
+    <MESSAGE value="Refactor - MorseCodeDecoder moved to its own file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor - MorseCodeDecoder moved to its own file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -406,21 +441,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MorseCodeDecoderShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="57" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#102#103#0" expanded="true" />
             <element signature="e#129#130#0" expanded="true" />
             <element signature="e#327#328#0" expanded="true" />
             <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#983#984#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MorseCodeDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
           </folding>
         </state>
       </provider>
