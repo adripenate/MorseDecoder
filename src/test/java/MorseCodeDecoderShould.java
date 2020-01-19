@@ -11,6 +11,11 @@ public class MorseCodeDecoderShould {
         assertThat(MorseCodeDecoder.decode(".-")).isEqualTo("A");
     }
 
+    @Test
+    public void decode_a_word() {
+        assertThat(MorseCodeDecoder.decode(".... --- .-.. .-")).isEqualTo("HOLA");
+    }
+
     private static class MorseCodeDecoder {
         private static Map<String, String> decoder = new HashMap<String, String>(){{
             put(".-", "A");
