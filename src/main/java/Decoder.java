@@ -29,6 +29,7 @@ public class Decoder {
         put("-..-", "X");
         put("-.--", "Y");
         put("--..", "Z");
+        put(" ", " ");
     }};
 
     public static String get(String letter) {

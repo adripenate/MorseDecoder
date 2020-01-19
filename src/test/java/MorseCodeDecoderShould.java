@@ -18,13 +18,14 @@ public class MorseCodeDecoderShould {
 
     @Test
     public void decode_a_phrase() {
-        assertThat(MorseCodeDecoder.decode(".... --- .-.. .-  .- -- .. --. .-")).isEqualTo("HOLA");
+        assertThat(MorseCodeDecoder.decode(".... --- .-.. .-   .- -- .. --. .-")).isEqualTo("HOLA AMIGA");
     }
 
     private static class MorseCodeDecoder {
 
         public static String decode(String code) {
-            return Arrays.stream(code.split(" "))
+            return Arrays.stream(code.replaceAll("\\s{2,}", "  ").split(" "))
+                    .map(letter -> (letter.isEmpty()) ? " " : letter)
                     .map(letter -> translate(letter))
                     .collect(Collectors.joining(""));
         }
