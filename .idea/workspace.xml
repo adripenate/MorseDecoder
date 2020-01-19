@@ -30,17 +30,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MorseCodeDecoderShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="209">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#102#103#0" expanded="true" />
                 <element signature="e#129#130#0" expanded="true" />
                 <element signature="e#327#328#0" expanded="true" />
                 <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
+                <element signature="e#1046#1047#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
                 <element signature="e#1010#1011#0" expanded="true" />
                 <element signature="e#1074#1075#0" expanded="true" />
-                <element signature="e#1182#1183#0" expanded="true" />
+                <element signature="e#1406#1407#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MorseCodeDecoderShould (2)">
+  <component name="RunManager" selected="JUnit.MorseCodeDecoderShould (3)">
     <configuration name="MorseCodeDecoderShould (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MorseDecoder" />
       <option name="PACKAGE_NAME" value="" />
@@ -177,7 +181,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MorseCodeDecoderShould (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MorseCodeDecoderShould (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MorseDecoder" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MorseCodeDecoderShould" />
@@ -206,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MorseCodeDecoderShould (3)" />
         <item itemvalue="JUnit.MorseCodeDecoderShould (2)" />
         <item itemvalue="JUnit.MorseCodeDecoderShould" />
         <item itemvalue="JUnit.MorseCodeDecoderShould (1)" />
         <item itemvalue="JUnit.MorseCodeDecoderShould (5)" />
-        <item itemvalue="JUnit.MorseCodeDecoderShould (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -288,16 +292,24 @@
       <option name="project" value="LOCAL" />
       <updated>1579430950612</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Refactor - Operation extracted as method">
+      <created>1579431170228</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1579431170228</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Refactor - Lambda replaced with reference method">
+      <created>1579431214134</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579431214134</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MorseCodeDecoderShould_(5) - 2020.01.19 at 10h 34m 50s.xml">
-      <configuration name="MorseCodeDecoderShould (5)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MorseCodeDecoderShould_(5) - 2020.01.19 at 10h 35m 44s.xml">
-      <configuration name="MorseCodeDecoderShould (5)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MorseCodeDecoderShould_(5) - 2020.01.19 at 10h 36m 28s.xml">
       <configuration name="MorseCodeDecoderShould (5)" configurationId="JUnit" />
     </history-entry>
@@ -321,6 +333,12 @@
     </history-entry>
     <history-entry file="MorseCodeDecoderShould_(1) - 2020.01.19 at 10h 47m 26s.xml">
       <configuration name="MorseCodeDecoderShould (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MorseCodeDecoderShould - 2020.01.19 at 10h 51m 51s.xml">
+      <configuration name="MorseCodeDecoderShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MorseCodeDecoderShould_(2) - 2020.01.19 at 10h 53m 07s.xml">
+      <configuration name="MorseCodeDecoderShould (2)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -361,11 +379,12 @@
     <MESSAGE value="Red test - decode_a_word" />
     <MESSAGE value="Green test - decode_a_word" />
     <MESSAGE value="Refactor - Map moved to its own file" />
-    <MESSAGE value="Refactor - Operation extracted as method" />
     <MESSAGE value="Refactor - Map access modified to private" />
     <MESSAGE value="Red test - decode_a_phrase" />
     <MESSAGE value="Green test - decode_a_phrase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Green test - decode_a_phrase" />
+    <MESSAGE value="Refactor - Operation extracted as method" />
+    <MESSAGE value="Refactor - Lambda replaced with reference method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor - Lambda replaced with reference method" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -387,17 +406,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MorseCodeDecoderShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="209">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#102#103#0" expanded="true" />
             <element signature="e#129#130#0" expanded="true" />
             <element signature="e#327#328#0" expanded="true" />
             <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
             <element signature="e#1010#1011#0" expanded="true" />
             <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1406#1407#0" expanded="true" />
           </folding>
         </state>
       </provider>

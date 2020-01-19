@@ -24,13 +24,21 @@ public class MorseCodeDecoderShould {
     private static class MorseCodeDecoder {
 
         public static String decode(String code) {
-            return Arrays.stream(code.replaceAll("\\s{2,}", "  ").split(" "))
-                    .map(MorseCodeDecoder::normalizeSpaces)
+            return Arrays.stream(separeteWords(code))
+                    .map(MorseCodeDecoder::normalizeSpace)
                     .map(MorseCodeDecoder::translate)
                     .collect(Collectors.joining(""));
         }
 
-        private static String normalizeSpaces(String letter) {
+        private static String[] separeteWords(String code) {
+            return normalizeSpaces(code).split(" ");
+        }
+
+        private static String normalizeSpaces(String code) {
+            return code.replaceAll("\\s{2,}", "  ");
+        }
+
+        private static String normalizeSpace(String letter) {
             return (letter.isEmpty()) ? " " : letter;
         }
 
