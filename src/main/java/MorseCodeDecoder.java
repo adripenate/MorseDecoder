@@ -23,7 +23,11 @@ public class MorseCodeDecoder {
     }
 
     private static String normalizeSpace(String letter) {
-        return (letter.isEmpty()) ? " " : letter;
+        return isSpace(letter) ? " " : letter;
+    }
+
+    private static boolean isSpace(String letter) {
+        return letter.isEmpty();
     }
 
     private static String translate(String letter) {
