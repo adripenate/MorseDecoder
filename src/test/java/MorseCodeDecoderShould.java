@@ -25,8 +25,8 @@ public class MorseCodeDecoderShould {
 
         public static String decode(String code) {
             return Arrays.stream(code.replaceAll("\\s{2,}", "  ").split(" "))
-                    .map(letter -> normalizeSpaces(letter))
-                    .map(letter -> translate(letter))
+                    .map(MorseCodeDecoder::normalizeSpaces)
+                    .map(MorseCodeDecoder::translate)
                     .collect(Collectors.joining(""));
         }
 

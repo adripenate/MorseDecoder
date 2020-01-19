@@ -158,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MorseCodeDecoderShould">
+  <component name="RunManager" selected="JUnit.MorseCodeDecoderShould (2)">
     <configuration name="MorseCodeDecoderShould (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MorseDecoder" />
       <option name="PACKAGE_NAME" value="" />
@@ -168,7 +168,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MorseCodeDecoderShould (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MorseCodeDecoderShould (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MorseDecoder" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MorseCodeDecoderShould" />
@@ -206,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MorseCodeDecoderShould (2)" />
         <item itemvalue="JUnit.MorseCodeDecoderShould" />
         <item itemvalue="JUnit.MorseCodeDecoderShould (1)" />
         <item itemvalue="JUnit.MorseCodeDecoderShould (5)" />
         <item itemvalue="JUnit.MorseCodeDecoderShould (4)" />
-        <item itemvalue="JUnit.MorseCodeDecoderShould (3)" />
       </list>
     </recent_temporary>
   </component>
