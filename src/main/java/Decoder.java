@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Decoder {
-    public static Map<String, String> decoder = new HashMap<String, String>(){{
+    private static Map<String, String> decoder = new HashMap<String, String>(){{
         put(".-", "A");
         put("-...", "B");
         put("-.-.", "C");
